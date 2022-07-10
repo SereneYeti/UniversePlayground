@@ -1,0 +1,37 @@
+[
+	{
+		"file": "F:\\GameDev\\UnrealEngine\\UniversePlayground\\UniversePlayground\\Source\\UniversePlayground\\CelestialBody.cpp",
+		"command": "C:\\MY_PROGRAMS\\VisualStudio\\2022\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\cl.exe @F:\\GameDev\\UnrealEngine\\UniversePlayground\\UniversePlayground\\.vscode\\compileCommands_Default\\UniversePlayground.211.rsp",
+		"directory": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "F:\\GameDev\\UnrealEngine\\UniversePlayground\\UniversePlayground\\Source\\UniversePlayground\\CelestialBody.h",
+		"command": "C:\\MY_PROGRAMS\\VisualStudio\\2022\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\cl.exe @F:\\GameDev\\UnrealEngine\\UniversePlayground\\UniversePlayground\\.vscode\\compileCommands_Default\\UniversePlayground.211.rsp",
+		"directory": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "F:\\GameDev\\UnrealEngine\\UniversePlayground\\UniversePlayground\\Source\\UniversePlayground\\UniversePlayground.Build.cs",
+		"command": "C:\\MY_PROGRAMS\\VisualStudio\\2022\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\cl.exe @F:\\GameDev\\UnrealEngine\\UniversePlayground\\UniversePlayground\\.vscode\\compileCommands_Default\\UniversePlayground.211.rsp",
+		"directory": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "F:\\GameDev\\UnrealEngine\\UniversePlayground\\UniversePlayground\\Source\\UniversePlayground\\UniversePlayground.cpp",
+		"command": "C:\\MY_PROGRAMS\\VisualStudio\\2022\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\cl.exe @F:\\GameDev\\UnrealEngine\\UniversePlayground\\UniversePlayground\\.vscode\\compileCommands_Default\\UniversePlayground.211.rsp",
+		"directory": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "F:\\GameDev\\UnrealEngine\\UniversePlayground\\UniversePlayground\\Source\\UniversePlayground\\UniversePlayground.h",
+		"command": "C:\\MY_PROGRAMS\\VisualStudio\\2022\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\cl.exe @F:\\GameDev\\UnrealEngine\\UniversePlayground\\UniversePlayground\\.vscode\\compileCommands_Default\\UniversePlayground.211.rsp",
+		"directory": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "F:\\GameDev\\UnrealEngine\\UniversePlayground\\UniversePlayground\\Source\\UniversePlayground\\UniversePlaygroundGameModeBase.cpp",
+		"command": "C:\\MY_PROGRAMS\\VisualStudio\\2022\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\cl.exe @F:\\GameDev\\UnrealEngine\\UniversePlayground\\UniversePlayground\\.vscode\\compileCommands_Default\\UniversePlayground.211.rsp",
+		"directory": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "F:\\GameDev\\UnrealEngine\\UniversePlayground\\UniversePlayground\\Source\\UniversePlayground\\UniversePlaygroundGameModeBase.h",
+		"command": "C:\\MY_PROGRAMS\\VisualStudio\\2022\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\cl.exe @F:\\GameDev\\UnrealEngine\\UniversePlayground\\UniversePlayground\\.vscode\\compileCommands_Default\\UniversePlayground.211.rsp",
+		"directory": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0\\Engine\\Source"
+	}
+]

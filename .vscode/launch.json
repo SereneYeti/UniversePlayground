@@ -1,0 +1,152 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Launch UniversePlayground (Debug)",
+			"request": "launch",
+			"program": "F:\\GameDev\\UnrealEngine\\UniversePlayground\\UniversePlayground\\Binaries\\Win64\\UnrealGame-Win64-Debug.exe",
+			"preLaunchTask": "UniversePlayground Win64 Debug Build",
+			"args": [
+			],
+			"cwd": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch UniversePlayground (DebugGame)",
+			"request": "launch",
+			"program": "F:\\GameDev\\UnrealEngine\\UniversePlayground\\UniversePlayground\\Binaries\\Win64\\UnrealGame-Win64-DebugGame.exe",
+			"preLaunchTask": "UniversePlayground Win64 DebugGame Build",
+			"args": [
+			],
+			"cwd": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch UniversePlayground (Development)",
+			"request": "launch",
+			"program": "F:\\GameDev\\UnrealEngine\\UniversePlayground\\UniversePlayground\\Binaries\\Win64\\UnrealGame.exe",
+			"preLaunchTask": "UniversePlayground Win64 Development Build",
+			"args": [
+			],
+			"cwd": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch UniversePlayground (Test)",
+			"request": "launch",
+			"program": "F:\\GameDev\\UnrealEngine\\UniversePlayground\\UniversePlayground\\Binaries\\Win64\\UnrealGame-Win64-Test.exe",
+			"preLaunchTask": "UniversePlayground Win64 Test Build",
+			"args": [
+			],
+			"cwd": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch UniversePlayground (Shipping)",
+			"request": "launch",
+			"program": "F:\\GameDev\\UnrealEngine\\UniversePlayground\\UniversePlayground\\Binaries\\Win64\\UnrealGame-Win64-Shipping.exe",
+			"preLaunchTask": "UniversePlayground Win64 Shipping Build",
+			"args": [
+			],
+			"cwd": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch UniversePlaygroundEditor (Debug)",
+			"request": "launch",
+			"program": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0\\Engine\\Binaries\\Win64\\UnrealEditor-Win64-Debug.exe",
+			"preLaunchTask": "UniversePlaygroundEditor Win64 Debug Build",
+			"args": [
+				"F:\\GameDev\\UnrealEngine\\UniversePlayground\\UniversePlayground\\UniversePlayground.uproject"
+			],
+			"cwd": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch UniversePlaygroundEditor (DebugGame)",
+			"request": "launch",
+			"program": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0\\Engine\\Binaries\\Win64\\UnrealEditor-Win64-DebugGame.exe",
+			"preLaunchTask": "UniversePlaygroundEditor Win64 DebugGame Build",
+			"args": [
+				"F:\\GameDev\\UnrealEngine\\UniversePlayground\\UniversePlayground\\UniversePlayground.uproject"
+			],
+			"cwd": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch UniversePlaygroundEditor (Development)",
+			"request": "launch",
+			"program": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0\\Engine\\Binaries\\Win64\\UnrealEditor.exe",
+			"preLaunchTask": "UniversePlaygroundEditor Win64 Development Build",
+			"args": [
+				"F:\\GameDev\\UnrealEngine\\UniversePlayground\\UniversePlayground\\UniversePlayground.uproject"
+			],
+			"cwd": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "coreclr",
+			"request": "launch",
+			"program": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0\\Engine\\Binaries\\DotNET\\UnrealBuildTool\\UnrealBuildTool",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=F:\\GameDev\\UnrealEngine\\UniversePlayground\\UniversePlayground\\UniversePlayground.uproject",
+				"-game",
+				"-engine"
+			],
+			"console": "externalTerminal",
+			"stopAtEntry": false,
+			"cwd": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0"
+		}
+	]
+}

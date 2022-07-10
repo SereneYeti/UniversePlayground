@@ -1,0 +1,707 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "UniversePlayground Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UniversePlayground",
+				"Win64",
+				"Debug",
+				"F:\\GameDev\\UnrealEngine\\UniversePlayground\\UniversePlayground\\UniversePlayground.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "UniversePlayground Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UniversePlayground",
+				"Win64",
+				"Debug",
+				"F:\\GameDev\\UnrealEngine\\UniversePlayground\\UniversePlayground\\UniversePlayground.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UniversePlayground Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "UniversePlayground Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UniversePlayground",
+				"Win64",
+				"Debug",
+				"F:\\GameDev\\UnrealEngine\\UniversePlayground\\UniversePlayground\\UniversePlayground.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "UniversePlayground Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UniversePlayground",
+				"Win64",
+				"DebugGame",
+				"F:\\GameDev\\UnrealEngine\\UniversePlayground\\UniversePlayground\\UniversePlayground.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "UniversePlayground Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UniversePlayground",
+				"Win64",
+				"DebugGame",
+				"F:\\GameDev\\UnrealEngine\\UniversePlayground\\UniversePlayground\\UniversePlayground.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UniversePlayground Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "UniversePlayground Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UniversePlayground",
+				"Win64",
+				"DebugGame",
+				"F:\\GameDev\\UnrealEngine\\UniversePlayground\\UniversePlayground\\UniversePlayground.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "UniversePlayground Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UniversePlayground",
+				"Win64",
+				"Development",
+				"F:\\GameDev\\UnrealEngine\\UniversePlayground\\UniversePlayground\\UniversePlayground.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "UniversePlayground Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UniversePlayground",
+				"Win64",
+				"Development",
+				"F:\\GameDev\\UnrealEngine\\UniversePlayground\\UniversePlayground\\UniversePlayground.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UniversePlayground Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "UniversePlayground Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UniversePlayground",
+				"Win64",
+				"Development",
+				"F:\\GameDev\\UnrealEngine\\UniversePlayground\\UniversePlayground\\UniversePlayground.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "UniversePlayground Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UniversePlayground",
+				"Win64",
+				"Test",
+				"F:\\GameDev\\UnrealEngine\\UniversePlayground\\UniversePlayground\\UniversePlayground.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "UniversePlayground Win64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UniversePlayground",
+				"Win64",
+				"Test",
+				"F:\\GameDev\\UnrealEngine\\UniversePlayground\\UniversePlayground\\UniversePlayground.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UniversePlayground Win64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "UniversePlayground Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UniversePlayground",
+				"Win64",
+				"Test",
+				"F:\\GameDev\\UnrealEngine\\UniversePlayground\\UniversePlayground\\UniversePlayground.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "UniversePlayground Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UniversePlayground",
+				"Win64",
+				"Shipping",
+				"F:\\GameDev\\UnrealEngine\\UniversePlayground\\UniversePlayground\\UniversePlayground.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "UniversePlayground Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UniversePlayground",
+				"Win64",
+				"Shipping",
+				"F:\\GameDev\\UnrealEngine\\UniversePlayground\\UniversePlayground\\UniversePlayground.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UniversePlayground Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "UniversePlayground Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UniversePlayground",
+				"Win64",
+				"Shipping",
+				"F:\\GameDev\\UnrealEngine\\UniversePlayground\\UniversePlayground\\UniversePlayground.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "UniversePlayground IOS Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UniversePlayground",
+				"IOS",
+				"Debug",
+				"F:\\GameDev\\UnrealEngine\\UniversePlayground\\UniversePlayground\\UniversePlayground.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "UniversePlayground IOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UniversePlayground",
+				"IOS",
+				"Debug",
+				"F:\\GameDev\\UnrealEngine\\UniversePlayground\\UniversePlayground\\UniversePlayground.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UniversePlayground IOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "UniversePlayground IOS Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UniversePlayground",
+				"IOS",
+				"Debug",
+				"F:\\GameDev\\UnrealEngine\\UniversePlayground\\UniversePlayground\\UniversePlayground.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "UniversePlayground IOS DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UniversePlayground",
+				"IOS",
+				"DebugGame",
+				"F:\\GameDev\\UnrealEngine\\UniversePlayground\\UniversePlayground\\UniversePlayground.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "UniversePlayground IOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UniversePlayground",
+				"IOS",
+				"DebugGame",
+				"F:\\GameDev\\UnrealEngine\\UniversePlayground\\UniversePlayground\\UniversePlayground.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UniversePlayground IOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "UniversePlayground IOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UniversePlayground",
+				"IOS",
+				"DebugGame",
+				"F:\\GameDev\\UnrealEngine\\UniversePlayground\\UniversePlayground\\UniversePlayground.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "UniversePlayground IOS Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UniversePlayground",
+				"IOS",
+				"Development",
+				"F:\\GameDev\\UnrealEngine\\UniversePlayground\\UniversePlayground\\UniversePlayground.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "UniversePlayground IOS Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UniversePlayground",
+				"IOS",
+				"Development",
+				"F:\\GameDev\\UnrealEngine\\UniversePlayground\\UniversePlayground\\UniversePlayground.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UniversePlayground IOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "UniversePlayground IOS Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UniversePlayground",
+				"IOS",
+				"Development",
+				"F:\\GameDev\\UnrealEngine\\UniversePlayground\\UniversePlayground\\UniversePlayground.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "UniversePlayground IOS Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UniversePlayground",
+				"IOS",
+				"Test",
+				"F:\\GameDev\\UnrealEngine\\UniversePlayground\\UniversePlayground\\UniversePlayground.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "UniversePlayground IOS Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UniversePlayground",
+				"IOS",
+				"Test",
+				"F:\\GameDev\\UnrealEngine\\UniversePlayground\\UniversePlayground\\UniversePlayground.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UniversePlayground IOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "UniversePlayground IOS Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UniversePlayground",
+				"IOS",
+				"Test",
+				"F:\\GameDev\\UnrealEngine\\UniversePlayground\\UniversePlayground\\UniversePlayground.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "UniversePlayground IOS Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UniversePlayground",
+				"IOS",
+				"Shipping",
+				"F:\\GameDev\\UnrealEngine\\UniversePlayground\\UniversePlayground\\UniversePlayground.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "UniversePlayground IOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UniversePlayground",
+				"IOS",
+				"Shipping",
+				"F:\\GameDev\\UnrealEngine\\UniversePlayground\\UniversePlayground\\UniversePlayground.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UniversePlayground IOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "UniversePlayground IOS Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UniversePlayground",
+				"IOS",
+				"Shipping",
+				"F:\\GameDev\\UnrealEngine\\UniversePlayground\\UniversePlayground\\UniversePlayground.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "UniversePlaygroundEditor Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UniversePlaygroundEditor",
+				"Win64",
+				"Debug",
+				"F:\\GameDev\\UnrealEngine\\UniversePlayground\\UniversePlayground\\UniversePlayground.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "UniversePlaygroundEditor Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UniversePlaygroundEditor",
+				"Win64",
+				"Debug",
+				"F:\\GameDev\\UnrealEngine\\UniversePlayground\\UniversePlayground\\UniversePlayground.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UniversePlaygroundEditor Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "UniversePlaygroundEditor Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UniversePlaygroundEditor",
+				"Win64",
+				"Debug",
+				"F:\\GameDev\\UnrealEngine\\UniversePlayground\\UniversePlayground\\UniversePlayground.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "UniversePlaygroundEditor Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UniversePlaygroundEditor",
+				"Win64",
+				"DebugGame",
+				"F:\\GameDev\\UnrealEngine\\UniversePlayground\\UniversePlayground\\UniversePlayground.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "UniversePlaygroundEditor Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UniversePlaygroundEditor",
+				"Win64",
+				"DebugGame",
+				"F:\\GameDev\\UnrealEngine\\UniversePlayground\\UniversePlayground\\UniversePlayground.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UniversePlaygroundEditor Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "UniversePlaygroundEditor Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UniversePlaygroundEditor",
+				"Win64",
+				"DebugGame",
+				"F:\\GameDev\\UnrealEngine\\UniversePlayground\\UniversePlayground\\UniversePlayground.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "UniversePlaygroundEditor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UniversePlaygroundEditor",
+				"Win64",
+				"Development",
+				"F:\\GameDev\\UnrealEngine\\UniversePlayground\\UniversePlayground\\UniversePlayground.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "UniversePlaygroundEditor Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UniversePlaygroundEditor",
+				"Win64",
+				"Development",
+				"F:\\GameDev\\UnrealEngine\\UniversePlayground\\UniversePlayground\\UniversePlayground.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UniversePlaygroundEditor Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "UniversePlaygroundEditor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UniversePlaygroundEditor",
+				"Win64",
+				"Development",
+				"F:\\GameDev\\UnrealEngine\\UniversePlayground\\UniversePlayground\\UniversePlayground.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0"
+			}
+		}
+	]
+}

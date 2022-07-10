@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "UniversePlaygroundEditor Editor Win64 Development (UniversePlayground)",
+            "intelliSenseMode": "msvc-x64",
+            "compileCommands": "F:\\GameDev\\UnrealEngine\\UniversePlayground\\UniversePlayground\\.vscode\\compileCommands_UniversePlayground.json",
+            "cStandard": "c17",
+            "cppStandard": "c++17"
+        },
+        {
+            "name": "Win32",
+            "intelliSenseMode": "msvc-x64",
+            "compileCommands": "F:\\GameDev\\UnrealEngine\\UniversePlayground\\UniversePlayground\\.vscode\\compileCommands_Default.json",
+            "cStandard": "c17",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}
