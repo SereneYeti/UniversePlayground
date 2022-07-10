@@ -4,6 +4,8 @@
 
 #include "Engine/GameInstance.h"
 #include "Containers/Array.h"
+#include "Math/Vector.h"
+#include "CelestialBody.h"
 #include "MyUniverseInstance.generated.h"
 
 /**
@@ -19,6 +21,12 @@ protected:
 	virtual void OnStart();
 
 public:
-	TArray<float> testArr;
+	// This is an array of all celestial bodies in the application
+	TArray<ACelestialBody> celestialBodies;
+
+	//This is the function responsible for all the initial setup
+	void InitialSetup();
+
+	FVector CalculateAcceleration(FVector point, ACelestialBody ignoreBody);
 
 };

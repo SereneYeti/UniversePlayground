@@ -5,7 +5,20 @@
 
 void UMyUniverseInstance::OnStart()
 {
-	Super::OnStart();	
-   testArr.Add(1);
-   UE_LOG(LogTemp, Warning, TEXT("This is a test log! \nHere is the test variable in the array: %f"), testArr[0]);
+	Super::OnStart();	   
+   
+};
+
+void UMyUniverseInstance::InitialSetup()
+{
+	//Find all celestial bodies in application   
+   
+};
+
+FVector UMyUniverseInstance::CalculateAcceleration(FVector point, ACelestialBody ignoreBody)
+{
+	//code 
+    FVector ans = FVector(0,0,0);
+
+    return ans;
 };

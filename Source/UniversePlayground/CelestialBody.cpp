@@ -24,6 +24,11 @@ void ACelestialBody::Tick(float DeltaTime)
 
 }
 
+float ACelestialBody::CalculateForce()
+{
+	return 0;
+}
+
 //float ACelestialBody::GetDiameter(){
 //	return 2*radius;
 //}
